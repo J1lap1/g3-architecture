@@ -1,0 +1,246 @@
+/* common styles */
+
+.btn-primary{
+    background-color: #FF900E;
+    color: #ffffff;
+    border: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+*{
+    font-family: Work sans;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+body{
+    /* display: flex;
+    align-items: center;
+    flex-direction: column; */
+    margin: 0;
+    margin-bottom: 400px;
+}
+/* nav styles */
+nav{
+    background-color: #fef4e8;
+    width: 100%;
+}
+.nav-head{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40%;
+
+}
+.nav-head>ul{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.nav-head>ul>li{
+    margin-left: 17%;
+}
+.nav-title{
+    /* margin-right: 576px; */
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-head{
+    width: 862px;
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+    margin: 0;
+    margin: 40px 0 30px 0;
+    margin-top: 40px;
+}
+.banner-description{
+    font-weight: normal;
+    font-size: 16px;
+    text-align: center;
+    width: 868px;
+    text-align: center;
+    margin: 0;
+    margin: 20px 0 30px 0;
+}
+.banner>img{
+    width: 1440px;
+    margin: 30px;
+}
+
+/* MAIN STYLES */
+
+/* features styles */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.features{
+    display: flex;
+    width: 1375px;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 200px;
+}
+
+.feature-images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 700px;
+    gap: 16px;
+}
+
+.feature-images>img{
+    box-shadow: 4px 3px 2px 1px gray;
+    border-radius: 0px;
+}
+
+.feature-details{
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.feature-head{
+font-size: 50px;
+}
+
+#quick-list{
+    font-weight: 800;
+}
+
+#our-features{
+    color: #FF900E;
+    font-weight: 1600;
+}
+
+.feature-description{
+    width: 387px;
+}
+
+.feature-explained{
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 100px;
+    margin: 180px 0;
+}
+
+
+.feature-sec-head > h2{
+    border-left: #FF900E solid 5px;
+    padding-left: 25px;
+    font-size: 32px;
+}
+.feature-sec-head>p{
+    /* display: block; */
+    font-size: 16px;
+}
+.feature-info{
+    padding: 4%;
+    box-shadow: 1px 9px 9px 1px rgb(221, 221, 221);
+    margin: 3% 0;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.feature-explained>img{
+    width: 630px;
+}
+#experience{
+    display: inline;
+    position: absolute;
+    top: 3075px;
+    left: 675px;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 30px 30px;
+}
+
+
+.facts{
+    text-align: center;
+}
+.facts>h1{
+    font-size: 48px;
+}
+.records{
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* display: flex;
+    justify-content: space-evenly; */
+    align-items: center;
+    margin-top: 40px;
+}
+.task{
+    margin: 0 30px; 
+    border: #FF900E 1px solid;
+    width:  200px;
+    height: 200px;
+    border-radius: 7px;
+    padding: 25px;
+}
+.task>img{
+    padding: 20px;
+}
+.task>h3{
+    font-size: 48px;
+}
+.task>h5{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(170, 170, 170);
+}
+
+/* SPONSORS STYLE */
+.sponsors{
+    text-align: center;
+    margin: 100px 0;
+}
+.sponsors>h1{
+    font-size: 48px;
+    
+}
+.sponsors>p{
+    font-size: 16px;
+}
+.sponsor-list{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsors-list>img{
+    margin:0 45px;
+}
+
+footer{
+    padding: 30px 0px;
+    text-align: center;
+    background-color: rgb(253, 244, 232);
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+footer>h3{
+    font-size: 16px;
+    font-weight:400;
+    color: rgb(118, 118, 118);
+}
+
+@media screen and (max-width:576px) {
+    /* .nav-head{
+        flex-direction: column;
+    } */
+}
